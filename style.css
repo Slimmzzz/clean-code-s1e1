@@ -4,24 +4,24 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
-.aaa {
+.eisenhower-tower {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.aaa img {
+.eisenhower-tower img {
   width: 100%;
 }
-.aaa .more_info {
+.eisenhower-tower .more_info {
   font-family: Fantasy, cursive;
 }
 
 @media (max-width:768px) {
-.aaa { text-align: center;
+.eisenhower-tower { text-align: center;
 }
 }
-.centered-main-page__element {
+.centered-main__element {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -31,7 +31,7 @@ body {
   display: inline-block;
   flex-grow: 1
 }
-.task-row__wrapper {
+.task__wrapper {
   display: flex;
 }
 ul {
@@ -117,12 +117,12 @@ li > label {
 li > input[type="text"] {
   width: 226px
 }
-button.delete img {
+button.delete__element img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-button.delete img:hover {
+button.delete__element img:hover {
   transform: rotateZ(0);
 }
 
